@@ -9,6 +9,7 @@ app.use(cors(), express.json(), authMiddleware);
 
 app.post('/login', handleLogin);
 
+
 app.listen({ port: PORT }, () => {
   console.log(`Server running on port ${PORT}!!!`);
 }); 
